@@ -1,0 +1,132 @@
+html {
+  font-size: 10px; }
+
+#the-desk {
+  display: flex; }
+  #the-desk .the-desk__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-top: 3rem; }
+    #the-desk .the-desk__content .the-desk__content-header {
+      display: flex;
+      width: 100%;
+      justify-content: space-between; }
+      #the-desk .the-desk__content .the-desk__content-header img {
+        width: 12.8rem;
+        height: 12.8rem;
+        margin-right: 2rem; }
+      #the-desk .the-desk__content .the-desk__content-header .the-desk__content-detail {
+        width: calc(100% - 12.8rem);
+        height: 12.8rem;
+        border-bottom: 1px solid #ebb227; }
+        #the-desk .the-desk__content .the-desk__content-header .the-desk__content-detail .detail-1 {
+          font-size: 4rem; }
+        #the-desk .the-desk__content .the-desk__content-header .the-desk__content-detail .detail-2 {
+          margin-top: 2rem;
+          font-size: 1.4rem;
+          font-weight: normal; }
+    #the-desk .the-desk__content .the-desk__content-tech {
+      width: 100%; }
+      #the-desk .the-desk__content .the-desk__content-tech .title {
+        font-size: 3rem;
+        margin: 4.5rem 0 0 0; }
+      #the-desk .the-desk__content .the-desk__content-tech p {
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+        margin-top: 1.5rem; }
+        #the-desk .the-desk__content .the-desk__content-tech p img {
+          width: 2.6rem;
+          margin-right: 1rem; }
+        #the-desk .the-desk__content .the-desk__content-tech p span {
+          width: 100%;
+          font-size: 1.4rem;
+          font-weight: normal; }
+    #the-desk .the-desk__content .the-desk__buttons {
+      width: 100%;
+      text-align: right;
+      margin-top: 3rem; }
+      #the-desk .the-desk__content .the-desk__buttons button {
+        width: 135px;
+        height: 35px;
+        background-color: transparent;
+        border: 2px solid #ebb227;
+        background-color: #190938;
+        border-radius: 20px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.5rem; }
+        #the-desk .the-desk__content .the-desk__buttons button:hover {
+          background-color: #ebb227;
+          opacity: 1; }
+        #the-desk .the-desk__content .the-desk__buttons button a {
+          display: block;
+          line-height: 30px;
+          width: 100%;
+          height: 100%; }
+  #the-desk .the-desk__image {
+    width: calc(100% - 600px); }
+
+button:hover {
+  cursor: pointer; }
+
+.team-buttons {
+  display: flex;
+  width: 415px;
+  align-items: center;
+  text-align: center; }
+  .team-buttons button {
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    border: none; }
+    .team-buttons button:hover {
+      opacity: 0.5; }
+
+.team-view-all {
+  text-align: right;
+  text-decoration: underline; }
+
+@media screen and (max-width: 5000px) {
+  #the-desk {
+    padding-top: 1rem;
+    padding-left: calc((100% - 1366px) / 2);
+    padding-right: calc((100% - 1366px) / 2); }
+    #the-desk .the-desk__content .the-desk__content-tech p span {
+      font-size: 2.2rem; }
+    #the-desk .the-desk__content .the-desk__buttons button {
+      font-size: 2.2rem; } }
+
+@media screen and (max-width: 1400px) {
+  #the-desk {
+    margin-left: 7rem;
+    margin-right: 7rem; }
+    #the-desk .the-desk__content .the-desk__content-tech p span {
+      font-size: 1.7rem; }
+    #the-desk .the-desk__content .the-desk__buttons button {
+      font-size: 1.7rem; } }
+
+@media screen and (max-width: 1000px) {
+  #the-desk {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    flex-wrap: wrap; }
+    #the-desk .the-desk__content,
+    #the-desk .the-desk__image {
+      width: 100%; }
+    #the-desk .the-desk__content .the-desk__content-header .the-desk__content-detail .detail-1 {
+      font-size: 3rem; }
+    #the-desk .the-desk__content .the-desk__content-tech p span {
+      font-size: 1.4rem; }
+    #the-desk .the-desk__content .the-desk__buttons button {
+      font-size: 1.4rem; }
+  .nav__mobile {
+    font-size: 3rem; } }
+
+@media screen and (max-width: 650px) {
+  #the-desk {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  .nav__mobile {
+    font-size: 2rem; } }

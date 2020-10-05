@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+  <link rel="stylesheet" href="./scss/css/style.css" />
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- FONTS -->
+  <link rel="stylesheet" href="/bower_components/dejavu-sans/css/dejavu-sans.css" />
+  <!-- SCROLL LIBRARY -->
+  <script src="dist/smooth-scroll.min.js"></script>
+  <script src="dist/smooth-scroll.polyfills.min.js"></script>
+  <!-- Icon on browser tab -->
+  <link rel="icon" href="../images/favicon.ico">
+  <!-- === -->
+  <title>Nextfunc Co., Ltd</title>
+</head>
+
+<body class="preload">
+  <!-- PRELOADING -->
+  <div class="wrapper">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+  </div>
+
+  <!-- CONTENT -->
+  <div id="container">
+    <!-- NAVIGATION - DESKTOP -->
+    <nav class="nav__desktop clearfix">
+      <div class="logo"></div>
+      <ul class="nav__list">
+        <li class="active"><a href="#container">Home</a></li>
+        <li><a href="#what">What we do?</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- NAVIGATION - MOBILE -->
+      <label class="nav__mobile" for="menu" id="nav-icon">
+        <div class="label-line">
+          <div class="box"></div>
+        </div>
+        <div class="label-line"></div>
+        <div class="label-line">
+          <div class="box"></div>
+        </div>
+      </label>
+    </nav>
+
+    <!-- MOBILE CONTENT -->
+    <div class="nav__mobile-content">
+      <p class="active">
+        <span class="circle-icon"><i class="fas fa-home"></i></span>
+        <a href="#container">Home</a>
+      </p>
+      <p>
+        <span class="circle-icon"><i class="fas fa-clipboard-list"></i></span>
+        <a href="#what">What we do?</a>
+      </p>
+      <p>
+        <span class="circle-icon"><i class="fas fa-users"></i></span>
+        <a href="#about">About us</a>
+      </p>
+      <p>
+        <span class="circle-icon"><i class="fas fa-lightbulb"></i></span>
+        <a href="#project">Projects</a>
+      </p>
+      <p>
+        <span class="circle-icon"><i class="fas fa-thumbs-up"></i></span>
+        <a href="#testimonials">Testimonials</a>
+      </p>
+      <p>
+        <span class="circle-icon"><i class="fas fa-network-wired"></i></span>
+        <a href="#team">Team</a>
+      </p>
+      <p>
+        <span class="circle-icon"><i class="fab fa-blogger-b"></i></span> Blog
+      </p>
+      <p>
+        <span class="circle-icon"><i class="fas fa-map-marker-alt"></i></span>
+        <a href="#contact">Contact</a>
+      </p>
+    </div>
+
+    <!-- HOME -->
+    <section class="home__background clearfix">
+      <section id="home" class="home">
+        <div class="home__content">
+          <p>We build</p>
+          <p>HIGH QUALITY</p>
+          <div class="home__text">
+            <span class="home__key shown">Mobile Apps</span>
+            <span class="home__key">Websites</span>
+            <span class="home__key">Desktop Apps</span>
+            <span class="home__key">Education Apps</span>
+          </div>
+          <p class="home__about">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At et
+            quo excepturi ullam? Distinctio, illum!
+            <br />
+            <button class="btn-learn">Contact us</button>
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section id="what" class="what">
+      <!-- What content -->
+      <div class="what__content">
+        <p>Our services</p>
+        <p>What we do?</p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          obcaecati similique rem molestias, fugiat minima veniam! Commodi
+          aspernatur nobis pariatur.
+        </p>
+      </div>
+      <!-- -------------------- -->
+      <!-- WHAT SLIDES - DESKTOP -->
+      <!-- -------------------- -->
+      <div class="what__slides">
+        <div class="container">
+          <!-- <div id="myCarousel-1" class="carousel slide" data-ride="carousel" data-interval="2000"> -->
+          <!-- Indicators -->
+          <!-- <ol class="carousel-indicators">
+              <li data-target="#myCarousel-1" data-slide-to="0" class="active" class="dot"></li>
+              <li data-target="#myCarousel-1" data-slide-to="1"></li>
+              <li data-target="#myCarousel-1" data-slide-to="2"></li>
+              <li data-target="#myCarousel-1" data-slide-to="3"></li>
+            </ol> -->
+          <!-- Wrapper for slides -->
+          <!-- <div class="carousel-inner">
+              <div class="item active">
+                <img src="/images/what-we-do-1.png" alt="Images..." style="width: 100%;" />
+              </div>
+              <div class="item">
+                <img src="/images/what-we-do-2.png" alt="Images..." style="width: 100%;" />
+              </div>
+              <div class="item">
+                <img src="/images/what-we-do-3.png" alt="Images..." style="width: 100%;" />
+              </div>
+              <div class="item">
+                <img src="/images/what-we-do-4.png" alt="Images..." style="width: 100%;" />
+              </div>
+            </div> -->
+          <!-- Left and right controls -->
+          <!-- <a class="left carousel-control" href="#myCarousel-1" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel-1" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> -->
+          <!-- -------------------- -->
+          <!-- WHAT - SLIDES MOBILE -->
+          <!-- -------------------- -->
+          <div id="myCarousel-1-m" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel-1-m" data-slide-to="0" class="active" class="dot"></li>
+              <li data-target="#myCarousel-1-m" data-slide-to="1"></li>
+              <li data-target="#myCarousel-1-m" data-slide-to="2"></li>
+              <li data-target="#myCarousel-1-m" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="box"></div>
+                <img src="/images/what-we-do-1.png" alt="Images..." style="width: 100%;" />
+              </div>
+              <div class="item">
+                <div class="box"></div>
+                <img src="/images/what-we-do-2.png" alt="Images..." style="width: 100%;" />
+              </div>
+              <div class="item">
+                <div class="box"></div>
+                <img src="/images/what-we-do-3.png" alt="Images..." style="width: 100%;" />
+              </div>
+              <div class="item">
+                <div class="box"></div>
+                <img src="/images/what-we-do-4.png" alt="Images..." style="width: 100%;" />
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel-1-m" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel-1-m" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!-- Control custom -->
+        <div class="control-custom">
+          <button class="btn-learn">
+            <i class="fa fa-long-arrow-alt-left"></i>
+          </button>
+          <button class="btn-learn">
+            <i class="fa fa-long-arrow-alt-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about" class="about">
+      <div class="about__content-1">
+        <p>Welcome to <span>Nextfunc</span></p>
+        <p>About us</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          obcaecati similique rem molestias, fugiat minima veniam! Commodi
+          aspernatur nobis pariatur.
+        </p>
+      </div>
+      <div class="about__content-2">
+        <div>
+          <p>Our History</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            obcaecati similique rem molestias, fugiat minima veniam! Commodi
+            aspernatur nobis pariatur.
+          </p>
+          <p>Our Mission</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            obcaecati similique rem molestias, fugiat minima veniam! Commodi
+            aspernatur nobis pariatur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="project" class="projects">
+      <!-- Projects content -->
+      <div class="projects__content">
+        <p>Our products</p>
+        <p>Project</p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          obcaecati similique rem molestias, fugiat minima veniam! Commodi
+          aspernatur nobis pariatur.
+        </p>
+        <button class="btn-learn">Learn more</button>
+      </div>
+      <!-- Projects statics -->
+      <div class="project__statics">
+        <div class="project__statics-detail">
+          <p class="numberBox">0</p>
+          <p>Happy Customer</p>
+        </div>
+        <span class="project__statics-line"></span>
+        <div class="project__statics-detail">
+          <p class="numberBox">0</p>
+          <p>Sucessful Projects</p>
+        </div>
+        <span class="project__statics-line"></span>
+        <div class="project__statics-detail">
+          <p class="numberBox">0</p>
+          <p>Team Members</p>
+        </div>
+        <span class="project__statics-line"></span>
+        <div class="project__statics-detail">
+          <p class="numberBox">0</p>
+          <p>Education App</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+      <div class="testimonials__content">
+        <p>What users saying?</p>
+        <p>Testimonials</p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          obcaecati similique rem molestias, fugiat minima veniam! Commodi
+          aspernatur nobis pariatur.
+        </p>
+      </div>
+      <!-- Testimonials Slides - Desktop -->
+      <div class="testimonials__slides">
+        <div class="box">
+          <div class="box-0">
+            <div class="box-1">
+              <div class="box-2">
+                <p>
+                  "It's an honor to work with you and you showed a great
+                  commitment. Sometimes there were short deadlines, but you
+                  delivered each time. Good job and thank you for your
+                  efforts!"
+                </p>
+                <div class="bottom">
+                  <img src="/images/testimonials (1).png" alt="" />
+                  <span>
+                    <b>Mikael Sjosten</b> <br />
+                    Product Manager <br />
+                    @muddest.com
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="box-1">
+              <div class="box-2">
+                <p>
+                  "It's an honor to work with you and you showed a great
+                  commitment. Sometimes there were short deadlines, but you
+                  delivered each time. Good job and thank you for your
+                  efforts!"
+                </p>
+                <div class="bottom">
+                  <img src="/images/testimonials (2).png" alt="" />
+                  <span>
+                    <b>Mikael Sjosten</b> <br />
+                    Product Manager <br />
+                    @muddest.com
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="box-1">
+              <div class="box-2">
+                <p>
+                  "It's an honor to work with you and you showed a great
+                  commitment. Sometimes there were short deadlines, but you
+                  delivered each time. Good job and thank you for your
+                  efforts!"
+                </p>
+                <div class="bottom">
+                  <img src="/images/testimonials (3).png" alt="" />
+                  <span>
+                    <b>Mikael Sjosten</b> <br />
+                    Product Manager <br />
+                    @muddest.com
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="box-1">
+              <div class="box-2">
+                <p>
+                  "It's an honor to work with you and you showed a great
+                  commitment. Sometimes there were short deadlines, but you
+                  delivered each time. Good job and thank you for your
+                  efforts!"
+                </p>
+                <div class="bottom">
+                  <img src="/images/testimonials (4).png" alt="" />
+                  <span>
+                    <b>Mikael Sjosten</b> <br />
+                    Product Manager <br />
+                    @muddest.com
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-learn" id="previous" onclick="onClickCheck()">
+            <i class="fa fa-arrow-left"></i>
+          </button>
+          <button class="btn-learn" id="next" onclick="onClickCheck()">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Testimonials Slides - Mobile 414px screen -->
+      <div class="testimonials__slides-m">
+        <div class="container">
+          <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel-2" data-slide-to="0" class="active" class="dot"></li>
+              <li data-target="#myCarousel-2" data-slide-to="1"></li>
+              <li data-target="#myCarousel-2" data-slide-to="2"></li>
+              <li data-target="#myCarousel-2" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="box">
+                  <p>
+                    "It's an honor to work with you and you showed a great
+                    commitment. Sometimes there were short deadlines, but you
+                    delivered each time. Good job and thank you for your
+                    efforts!"
+                  </p>
+                  <div class="bottom">
+                    <img src="/images/testimonials (3).png" alt="" />
+                    <span>
+                      <b>Mikael Sjosten</b> <br />
+                      Product Manager <br />
+                      @muddest.com
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="box">
+                  <p>
+                    "It's an honor to work with you and you showed a great
+                    commitment. Sometimes there were short deadlines, but you
+                    delivered each time. Good job and thank you for your
+                    efforts!"
+                  </p>
+                  <div class="bottom">
+                    <img src="/images/testimonials (3).png" alt="" />
+                    <span>
+                      <b>Mikael Sjosten</b> <br />
+                      Product Manager <br />
+                      @muddest.com
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="box">
+                  <p>
+                    "It's an honor to work with you and you showed a great
+                    commitment. Sometimes there were short deadlines, but you
+                    delivered each time. Good job and thank you for your
+                    efforts!"
+                  </p>
+                  <div class="bottom">
+                    <img src="/images/testimonials (3).png" alt="" />
+                    <span>
+                      <b>Mikael Sjosten</b> <br />
+                      Product Manager <br />
+                      @muddest.com
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="box">
+                  <p>
+                    "It's an honor to work with you and you showed a great
+                    commitment. Sometimes there were short deadlines, but you
+                    delivered each time. Good job and thank you for your
+                    efforts!"
+                  </p>
+                  <div class="bottom">
+                    <img src="/images/testimonials (3).png" alt="" />
+                    <span>
+                      <b>Mikael Sjosten</b> <br />
+                      Product Manager <br />
+                      @muddest.com
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel-2" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel-2" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <div class="control-custom">
+              <button class="btn-learn">
+                <i class="fa fa-long-arrow-alt-left"></i>
+              </button>
+              <button class="btn-learn">
+                <i class="fa fa-long-arrow-alt-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="team">
+      <div class="team__content">
+        <p>Our employees</p>
+        <p>Team</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          obcaecati similique rem molestias, fugiat minima veniam! Commodi
+          aspernatur nobis pariatur.
+        </p>
+        <button class="btn-learn btn-team">Learn more</button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <!-- Contact content -->
+      <div class="contact__content">
+        <div class="contact__infor">
+          <p>Contact us</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            obcaecati similique rem molestias, fugiat minima veniam! Commodi
+            aspernatur nobis pariatur.
+          </p>
+          <p><i class="fa fa-phone"></i> <span>+84 972 465 159</span></p>
+          <p>
+            <i class="fa fa-envelope"></i>
+            <span><a href="admin@nextfunc.com">admin@nextfunc.com</a></span>
+          </p>
+          <p>
+            <i class="fa fa-globe"></i>
+            <span><a href="https://nextfunc.com">https://nextfunc.com</a></span>
+          </p>
+        </div>
+
+        <div class="contact__border"></div>
+
+        <div class="contact__social">
+          <p>Social media</p>
+          <p>
+            <i class="fab fa-linkedin-in"></i>
+            <span><a href="https://www.linkedin.com/company/nextfunccompany/"
+                target="_blank">https://www.linkedin.com/company/nextfunccompany/</a></span>
+          </p>
+          <p>
+            <i class="fab fa-facebook-square"></i>
+            <span><a href="https://facebook.com/nextfunc" target="_blank">https://facebook.com/nextfunc</a></span>
+          </p>
+        </div>
+        <!-- Contact face -->
+        <div class="contact__face">
+          <iframe style="border-radius: 20px;"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnextfunc&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=401370633928071"
+            width="340" height="130" style="border: none; overflow: hidden;" scrolling="no" frameborder="0"
+            allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
+      <!-- Contact map -->
+      <div class="contact__map">
+        <div class="content">
+          <div class="box-100">
+            <div class="box-animate"></div>
+            <div class="box-arrow-down"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/style.js"></script>
+</body>
+
+</html>

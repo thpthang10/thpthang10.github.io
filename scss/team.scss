@@ -1,0 +1,129 @@
+// --------------------------------------------
+// FORMAT
+// --------------------------------------------
+$padding-sides-1366: 7rem;
+$padding-top-1366: 1rem;
+$padding-sides-1024: 5rem;
+$padding-top-1024: 1rem;
+$padding-sides-768: 4rem;
+$padding-top-768: 1rem;
+$padding-sides-414: 2rem;
+$padding-top-414: 1rem;
+$padding-sides-375: 2rem;
+$padding-top-375: 1rem;
+html {
+    font-size: 10px;
+}
+.item {
+    // background-color: #f2f2f2;
+    // border: 2px solid #f2f2f2;
+    border-radius: 20px 0 20px 0;
+    padding: 1.5rem;
+    p.title {
+        text-align: center;
+        padding: 1rem 0 1rem 0;
+        color: #fff;
+        // background-color: darkblue;
+        // border-top: 2px solid #fff;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+}
+#team-slider {
+    margin-top: 2rem;
+    p:first-child {
+        font-size: 4rem;
+    }
+    p:nth-child(2) {
+        font-size: 2rem;
+    }
+    .view-all {
+        // border: 5px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        .item {
+            width: 25%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+#team-slider:hover,
+button:hover {
+    cursor: pointer;
+}
+.team-buttons {
+    text-align: right;
+    button {
+        width: 50px;
+        height: 25px;
+        background-color: transparent;
+        border: 2px solid #ebb227;
+        border-radius: 5px;
+        &:hover {
+            background-color: #ebb227;
+            opacity: 1;
+        }
+    }
+}
+.team-view-all {
+    text-align: right;
+    text-decoration: underline;
+}
+// --------------------------------------------
+// RESPONSIVE
+// --------------------------------------------
+@media screen and (max-width: 5000px) {
+    #team-slider {
+      padding-top: $padding-top-1366;
+      padding-left: calc((100% - 1366px) / 2);
+      padding-right: calc((100% - 1366px) / 2);
+    }
+}
+// 1366 - 1400
+@media screen and (max-width: 1400px) {
+    #team-slider {
+        margin-left: $padding-sides-1366;
+        margin-right: $padding-sides-1366;
+        p:nth-child(2) {
+            font-size: 1.7rem;
+        }
+    }
+}
+// 1024 - 1200
+@media screen and (max-width: 1000px) {
+    #team-slider {
+        margin-left: $padding-sides-768;
+        margin-right: $padding-sides-768;
+        p:nth-child(2) {
+            font-size: 1.4rem;
+        }
+        .view-all {
+            .item {
+                width: 30%;
+            }
+        }
+    }
+    .nav__mobile {
+        font-size: 3rem;
+    }
+}
+// IPHONE-6 414px - 650px
+@media screen and (max-width: 650px) {
+    #team-slider {
+        margin-left: $padding-sides-414;
+        margin-right: $padding-sides-414;
+        .item {
+            width: 75%;
+        }
+        .view-all {
+            .item {
+                width: 50%;
+            }
+        }
+    }
+    .nav__mobile {
+        font-size: 2rem;
+    }
+}
